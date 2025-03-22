@@ -15,7 +15,7 @@ path = '/home/nytdevansh/data/mark_2'
 if path not in sys.path:
     sys.path.append(path)
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'data.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
 os.environ['DJANGO_DEBUG'] = 'False'
 
 from django.core.wsgi import get_wsgi_application
