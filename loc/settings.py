@@ -31,7 +31,8 @@ DEBUG = 'False'
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '.pythonanywhere.com',  # Allow all subdomains of pythonanywhere.com
+    '.pythonanywhere.com',
+    'srms-hackathon-django-backend.onrender.com',  # Allow all subdomains of pythonanywhere.com
 ]
 
 
@@ -61,7 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'data.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
